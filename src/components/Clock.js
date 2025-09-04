@@ -119,7 +119,7 @@ export default function Clock() {
         </div>
         <div className="timer-controls">
             <button className='btn btn-info btn-sm mx-2 my-2' id="start_stop" onClick={handleStartStop}>Start/Stop</button>
-            <audio ref={audioRef} id="beep" src={`/bell-ringing.mp3`} />
+            <audio ref={audioRef} id="beep" src='https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3' />
             <button className='btn btn-info btn-sm mx-2 my-2' id="reset" onClick={handleResetClick}>Reset</button>
         </div>
         </div>
